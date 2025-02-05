@@ -11,8 +11,8 @@ library(FinTS)                 # Tests spécifiques pour les séries temporelles
 library(parallel)
 
 
-axa <- read_excel("C:/Users/12312950/Downloads/AXA.xlsx")
-engie <- read_excel("C:/Users/12312950/Downloads/ENGIE.xlsx")
+axa <- read_excel(".../AXA.xlsx")
+engie <- read_excel(".../ENGIE.xlsx")
 base<-merge(axa,engie, by = "Date")
 td <- as.Date(base$Date, format = "%d/%m/%y")
 AXA <- xts(base$AXA, order.by = td)
