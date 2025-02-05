@@ -4,6 +4,9 @@
 This project analyzes the **financial risk** of two major stocks—**AXA** and **ENGIE**—by applying various statistical and econometric models. Using **Value at Risk (VaR)**, **Expected Shortfall (ES)**, and **portfolio risk analysis**, we explore how extreme risks are quantified and backtested over time. The analysis also examines portfolio risk diversification and contributions to overall risk.
 
 ---
+![cover](Image/cover.png)
+
+---
 
 ## **1. Project Overview**
 
